@@ -1,0 +1,57 @@
+html,body{
+	   		max-width: 480px;
+		    background-color: #f6f6f6;
+		    margin: 0 auto;
+		    font-family: 'Open Sans', sans-serif;
+}
+
+#title{
+	font-family: 'Passion One', cursive;
+	margin-top: 20px;
+}
+
+.article{
+	margin: 0 20px;
+}
+
+.btn-group{
+	margin-right: 10px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+
+#selected-image{
+  max-width: 480px;
+	width:100%;
+	margin: 8px 0 20px;
+}
+
+.output{
+	background-color: #555;
+	color: #f6f6f6;
+	margin-top: 20px;
+  padding: 1em 1em 0 1em;
+	border:solid 1px;
+	border-radius: 6px;
+}
+
+footer{
+	margin-top: 20px;
+}

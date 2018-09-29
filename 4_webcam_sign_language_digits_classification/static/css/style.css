@@ -1,0 +1,42 @@
+html,body{
+	max-width: 480px;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#title{
+		font-family: 'Passion One', cursive;
+		margin-top: 20px;
+}
+
+.article{
+	margin: 20px;
+}
+
+.container{
+	margin-bottom: 20px;
+}
+
+.btn-group{
+	margin-right: 10px;
+}
+
+video{
+  width: 480px;
+	height: 480px;
+	margin-top: 20px;
+}
+
+#dummy-img{
+	display: none;
+}
+
+.output{
+	background-color: #555;
+	color: #f6f6f6;
+	margin-top: 20px;
+  padding: 1em 1em 0 1em;
+	border:solid 1px;
+	border-radius: 6px;
+}
