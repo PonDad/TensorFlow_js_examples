@@ -18,4 +18,7 @@ Open Link　http://localhost:8080/
 1. Load Model
 2. Camera on(Allow access to webcam)
 3. Sign Language Digits
+
+![Screenshot](https://github.com/PonDad/keras_js_examples/blob/master/4_webcam_sign_language_digits_classification/static/img/Screenshot.png)
+
 4. Predict
