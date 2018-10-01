@@ -2,6 +2,8 @@
 
 ## 1.Image Classification
 
+![screenshot](https://github.com/PonDad/keras_js_examples/blob/master/4_webcam_sign_language_digits_classification/static/img/screenshot.gif)
+
 [1_image_classification](https://github.com/PonDad/keras_js_examples/tree/master/1_image_classification)
 
 ## 2.Cats and Dogs Classification
