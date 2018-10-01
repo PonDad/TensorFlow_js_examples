@@ -58,7 +58,7 @@ history = model.fit_generator(
       validation_data=validation_generator,
       validation_steps=50)
 
-model.save('/home/pondad/keras_js_examples/2_cats_and_dogs_classification/python3/model/cats_dogs_small_1.h5')
+model.save('/home/pondad/keras_js_examples/2_cats_and_dogs_classification/python3/cats_dogs_small_1.h5')
 
 # convert the vgg16 model into tf.js model
 save_path = '/home/pondad/keras_js_examples/2_cats_and_dogs_classification/static/cats_dogs_vgg16'
