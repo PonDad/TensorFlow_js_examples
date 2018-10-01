@@ -22,3 +22,7 @@ Open Link　http://localhost:8080/
 ![Screenshot](https://github.com/PonDad/keras_js_examples/blob/master/4_webcam_sign_language_digits_classification/static/img/Screenshot.png)
 
 4. Predict
+
+## Dataset
+
+[Sign Language Digits Dataset - Kaggle](https://www.kaggle.com/ardamavi/sign-language-digits-dataset)
