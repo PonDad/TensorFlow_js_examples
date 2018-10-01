@@ -1,4 +1,4 @@
-## 1.Image Classification
+## 2.Cats and Dogs Classification
 
 ![ScreenShot1](https://github.com/PonDad/keras_js_examples/blob/master/2_cats_and_dogs_classification/static/img/screenshot_2.png)
 
