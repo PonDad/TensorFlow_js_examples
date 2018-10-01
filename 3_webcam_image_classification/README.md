@@ -1,6 +1,6 @@
 ## 3.Webcam Image Classification
 
-![screenShot2](https://github.com/PonDad/keras_js_examples/blob/master/2_cats_and_dogs_classification/static/img/screenshot_2.png)
+![screenShot3](https://github.com/PonDad/keras_js_examples/blob/master/3_webcam_image_classification/static/img/screenshot_3.png)
 
 ### Install
 
