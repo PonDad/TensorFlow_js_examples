@@ -1,6 +1,6 @@
 ## 4.Webcam Sign Language Digits Classification
 
-![screenShot3](https://github.com/PonDad/keras_js_examples/blob/master/3_webcam_image_classification/static/img/screenshot_3.png)
+![screenShot4](https://github.com/PonDad/keras_js_examples/blob/master/4_webcam_sign_language_digits_classification/static/img/screenshot_4.png)
 
 ### Install
 
