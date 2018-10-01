@@ -11,6 +11,8 @@ $ npm start
 
 ### Usage
 
+Open Link　http://localhost:8080/
+
 1. Load Model
 2. Upload Image
 3. Predict
