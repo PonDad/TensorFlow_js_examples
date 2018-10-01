@@ -2,6 +2,8 @@
 
 ![screenShot4](https://github.com/PonDad/keras_js_examples/blob/master/4_webcam_sign_language_digits_classification/static/img/screenshot_4.png)
 
+[Demo](https://webcam-sign-language-digit.herokuapp.com/)
+
 ### Install
 
 ```bash
