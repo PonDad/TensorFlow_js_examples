@@ -12,7 +12,7 @@ def process_image(img_path):
 	return pImg
 
 if __name__ == '__main__':
-	test_img_path = test_img_path = "./static/img/coffee.jpg"
+	test_img_path = test_img_path = "/home/pondad/keras_js_examples/1_image_classification/static/img"
 	pImg = process_image(test_img_path)
 	vgg16 = vgg16.VGG16()
 	prediction = vgg16.predict(pImg)
@@ -22,6 +22,6 @@ if __name__ == '__main__':
 
 	# convert the vgg16 model into tf.js model
 	convert the vgg16 model into tf.js model
-	save_path = "./output/vgg16"
+	save_path = "/home/pondad/keras_js_examples/1_image_classification/static/vgg16"
 	tfjs.converters.save_keras_model(vgg16, save_path)
 	print("[INFO] saved tf.js vgg16 model to disk..")
