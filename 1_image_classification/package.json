@@ -1,5 +1,5 @@
 {
-  "name": "tfjs_test",
+  "name": "1_image_classification",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",

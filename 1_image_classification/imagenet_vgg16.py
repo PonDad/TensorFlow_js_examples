@@ -17,10 +17,10 @@ if __name__ == '__main__':
 	vgg16 = vgg16.VGG16()
 	prediction = vgg16.predict(pImg)
 
-	# obtain the top-5 predictions
 	results = imagenet_utils.decode_predictions(prediction)
 	print(results)
 
+	# convert the vgg16 model into tf.js model
 	convert the vgg16 model into tf.js model
 	save_path = "./output/vgg16"
 	tfjs.converters.save_keras_model(vgg16, save_path)

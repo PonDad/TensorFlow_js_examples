@@ -1,7 +1,7 @@
 {
-  "name": "tfjs_test_5",
+  "name": "4_webcam_sign_language_digits_classification",
   "version": "1.0.0",
-  "description": "#### Turkey Ankara Ayrancı Anadolu High School's Sign Language Digits Dataset This dataset is prepared by our school students.",
+  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.16.3"
