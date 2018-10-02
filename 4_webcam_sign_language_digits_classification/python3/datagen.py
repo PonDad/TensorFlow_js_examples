@@ -24,13 +24,13 @@ for j in range(0, len(folder_name)):
         dst = os.path.join(train_dir, folder_name[j], fname)
         shutil.copyfile(src, dst)
 
-    fnames = [folder_name[j] +'_{}.jpg'.format(i) for i in range(102, 151)]
+    fnames = [folder_name[j] +'_{}.jpg'.format(i) for i in range(102, 152)]
     for fname in fnames:
         src = os.path.join(original_dataset_dir, folder_name[j], fname)
         dst = os.path.join(validation_dir, folder_name[j], fname)
         shutil.copyfile(src, dst)
 
-    fnames = [folder_name[j] +'_{}.jpg'.format(i) for i in range(151, 201)]
+    fnames = [folder_name[j] +'_{}.jpg'.format(i) for i in range(153, 203)]
     for fname in fnames:
         src = os.path.join(original_dataset_dir, folder_name[j], fname)
         dst = os.path.join(test_dir, folder_name[j], fname)
