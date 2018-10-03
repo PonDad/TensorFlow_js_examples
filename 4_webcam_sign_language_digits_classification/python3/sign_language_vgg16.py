@@ -27,8 +27,8 @@ model.compile(loss='categorical_crossentropy',
 classes = ['zero', 'one', 'two', 'three', 'four',
            'five', 'seven', 'eight', 'nine']
 
-train_dir = '/home/pondad/keras_js_examples/4_webcam_sign_language_digits_classification/python3/hand_sign_digit_data/train'
-validation_dir = '/home/pondad/keras_js_examples/4_webcam_sign_language_digits_classification/python3/hand_sign_digit_data/validation'
+train_dir = './static/img/dataset/train'
+validation_dir = './static/img/dataset/validation'
 
 # All images will be rescaled by 1./255
 train_datagen = ImageDataGenerator(
@@ -60,15 +60,15 @@ validation_generator = test_datagen.flow_from_directory(
 
 history = model.fit_generator(
       train_generator,
-      steps_per_epoch=100,
-      epochs=100,
+      steps_per_epoch=50,
+      epochs=70,
       validation_data=validation_generator,
-      validation_steps=10)
+      validation_steps=25)
 
-model.save('/home/pondad/keras_js_examples/4_webcam_sign_language_digits_classification/python3/sign_language_vgg16_1.h5')
+model.save('./static/sign_language_vgg16_1.h5')
 
 #convert the vgg16 model into tf.js model
-save_path = '/home/pondad/keras_js_examples/4_webcam_sign_language_digits_classification/static/sign_language_vgg16'
+save_path = './static/sign_language_vgg16'
 tfjs.converters.save_keras_model(model, save_path)
 print("[INFO] saved tf.js vgg16 model to disk..")
 
