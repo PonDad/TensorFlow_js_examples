@@ -1,4 +1,4 @@
-# Keras.js Examples
+# TensorFlow.js Examples
 
 ![screenshot_1_gif](https://github.com/PonDad/keras_js_examples/blob/master/4_webcam_sign_language_digits_classification/static/img/screenshot_1.gif)
 
